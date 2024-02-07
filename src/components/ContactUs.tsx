@@ -6,7 +6,7 @@ function ContactUs() {
 
 
   return (
-    <section className='contact mt-[80px] xl:mt-[150px] relative z-20 py-[80px] xl:py-[150px]'>
+    <section className='contact mt-[30px] xl:mt-[30px] relative z-20 py-[80px] xl:py-[150px]'>
     <div className='contact__container container mx-auto bg-primary rounded-[70px] py-[80px]'>
 
         <div className='contact__text max-w-[640px] mx-auto text-center'>

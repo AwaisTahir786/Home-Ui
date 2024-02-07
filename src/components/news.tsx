@@ -12,7 +12,7 @@ interface ItemsTypes{
 function Items({image,title,date}:ItemsTypes) {
 
     return(
-        <div className='news__item w-full max-w-[382px]  h-[520px] border bg-white border-primary rounded-[62px] p-[20px] hover:bg-accent-secondary transtion-all group cursor-pointer mx-auto xl:mx-0'>
+        <div className='news__item w-full max-w-[382px]  h-[520px] bg-white border-primary rounded-[62px] p-[20px] hover:bg-accent-secondary transtion-all group cursor-pointer mx-auto xl:mx-0'>
                 <Image 
                 src={image}
                 alt="news-img"
@@ -48,7 +48,7 @@ function Items({image,title,date}:ItemsTypes) {
 
 function News() {
   return (
-    <section className='news mt-[80px] xl:mt-[150px] relative z-20 py-[80px] xl:py-[150px]'>
+    <section className='news mt-[30px] xl:mt-[50px] relative z-20 py-[80px] xl:py-[50px]'>
     <div className='container mx-auto px-0'>
         {/* text */}
         <div className='max-w-[810px] mx-auto text-center mb-[52px]'>
