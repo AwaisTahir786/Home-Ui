@@ -63,9 +63,9 @@ function News() {
             {/* grid item */}
            <Items image="/assets/news/01.png" title="Let's Get Solution For Building Construction Work" date="22 Jan,2024" />
              {/* grid item */}
-             <Items image="/assets/news/01.png" title="Let's Get Solution For Building Construction Work" date="22 Jan,2024" />
+             <Items image="/assets/news/02.png" title="Let's Get Solution For Building Construction Work" date="22 Jan,2024" />
                {/* grid item */}
-           <Items image="/assets/news/01.png" title="Let's Get Solution For Building Construction Work" date="22 Jan,2024" />
+           <Items image="/assets/news/03.png" title="Let's Get Solution For Building Construction Work" date="22 Jan,2024" />
 
         </div>
 
