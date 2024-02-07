@@ -48,7 +48,7 @@ function Items({image,title,date}:ItemsTypes) {
 
 function News() {
   return (
-    <section className='news mt-[30px] xl:mt-[50px] relative z-20 py-[80px] xl:py-[50px]'>
+    <section className='news mt-[30px] xl:mt-[50px] relative z-20 py-[30px] xl:py-[50px]'>
     <div className='container mx-auto px-0'>
         {/* text */}
         <div className='max-w-[810px] mx-auto text-center mb-[52px]'>
