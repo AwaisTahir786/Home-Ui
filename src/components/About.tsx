@@ -8,7 +8,7 @@ function About() {
     
     
   return (
-    <section className='about mt-[80px] xl:mt-[200px] relative z-20'>
+    <section className='about mt-[80px] xl:mt-[200px] relative z-20' id='about'>
         <div className='container mx-auto xl:px-0'>
             <div className='flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]'>
                 <div className='about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap:8'>

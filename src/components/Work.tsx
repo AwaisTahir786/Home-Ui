@@ -5,7 +5,7 @@ import React from "react";
 
 function WorkItem({image}:any) {
   return (
-    <div className="w-full max-w-[548px] h-full mx-auto">
+    <div className="w-full max-w-[548px] h-full mx-auto" id="work">
       <Image
         src={image}
         alt="work image"

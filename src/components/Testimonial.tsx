@@ -16,7 +16,7 @@ import Swiperbox from "./Swiperbox";
 function Testimonial() {
   
   return (
-    <section className="testimonial mt-[80px] xl:mt[200px] relative z-20">
+    <section className="testimonial mt-[80px] xl:mt[200px] relative z-20" id="testimonials">
       <div className="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6">
 
         <div className="flex flex-col items-center pt-[88px] pb-[110px]">

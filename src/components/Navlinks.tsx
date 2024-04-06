@@ -5,22 +5,22 @@ function Navlinks({styling}:any) {
   return (
     <ul className={`${styling} `}>
       <li>
-        <Link href={"/"}>Home</Link>
+        <Link href={"#home"}>Home</Link>
       </li>
       <li>
-        <Link href={"/"}>About</Link>
+        <Link href={"#about"}>About</Link>
       </li>
       <li>
-        <Link href={"/"}>Testimonials</Link>
+        <Link href={"#testimonials"}>Testimonials</Link>
       </li>
       <li>
-        <Link href={"/"}>Our Work</Link>
+        <Link href={"#work"}>Our Work</Link>
       </li>
       <li>
-        <Link href={"/"}>News</Link>
+        <Link href={"#news"}>News</Link>
       </li>
       <li>
-        <Link href={"/"}>Contact</Link>
+        <Link href={"#contact"}>Contact</Link>
       </li>
     </ul>
   );
